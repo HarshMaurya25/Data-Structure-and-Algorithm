@@ -6,9 +6,9 @@ public class Partition {
 
         String s = "abaca";
         List<List<String>> Answer = new ArrayList<>();
-        Partitions(s, new ArrayList<>(), Answer);
+        System.out.println(partitions2(s, new ArrayList<>()).toString());
 
-        System.out.println(Answer.toString());
+        // System.out.println(Answer.toString());
 
     }
 
@@ -29,13 +29,16 @@ public class Partition {
 
     }
 
-    public static List<List<String>> partitions(String s, List<String> partition) {
+    public static List<List<String>> partitions2(String s, List<String> partition) {
 
         List<List<String>> answer = new ArrayList<>();
 
         // Base case
         if (s.length() == 0) {
+
             answer.add(new ArrayList<>(partition));
+
+            System.out.println(partition.toString() + " " + answer.toString());
             return answer;
         }
 
@@ -45,7 +48,7 @@ public class Partition {
 
             partition.add(part);
 
-            answer.addAll(partitions(s.substring(i + 1), partition));
+            answer.addAll(partitions2(s.substring(i + 1), partition));
 
             partition.remove(partition.size() - 1);
         }
