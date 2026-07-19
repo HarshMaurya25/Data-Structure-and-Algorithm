@@ -28,4 +28,28 @@ public class Partition {
         }
 
     }
+
+    public static List<List<String>> partitions(String s, List<String> partition) {
+
+        List<List<String>> answer = new ArrayList<>();
+
+        // Base case
+        if (s.length() == 0) {
+            answer.add(new ArrayList<>(partition));
+            return answer;
+        }
+
+        for (int i = 0; i < s.length(); i++) {
+
+            String part = s.substring(0, i + 1);
+
+            partition.add(part);
+
+            answer.addAll(partitions(s.substring(i + 1), partition));
+
+            partition.remove(partition.size() - 1);
+        }
+
+        return answer;
+    }
 }
