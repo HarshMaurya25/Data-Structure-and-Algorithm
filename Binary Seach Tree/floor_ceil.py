@@ -30,7 +30,7 @@ def ceil(arr , target):
 
     return ans
 
-
+    
 arr = [1, 2, 3, 6, 7, 22, 23, 26, 45, 465, 999]
 
 idx = ceil(arr, 9)
