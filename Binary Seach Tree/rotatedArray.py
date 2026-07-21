@@ -1,3 +1,6 @@
+# Check that if element is in sorted or not is just what this question is about
+# Find the sorted side and then check if is lies on that side of array
+
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         low = 0
