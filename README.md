@@ -36,6 +36,14 @@
 |  |
 | ------- |
 | [0704-binary-search](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0704-binary-search) |
+## Math
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/1922-count-good-numbers) |
+## Recursion
+|  |
+| ------- |
+| [1922-count-good-numbers](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/1922-count-good-numbers) |
 <!---LeetCode Topics End-->
 
 ## Folder Question Index
