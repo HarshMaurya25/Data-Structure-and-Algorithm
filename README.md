@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0001-two-sum) |
+| [0040-combination-sum-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0040-combination-sum-ii) |
 | [0053-maximum-subarray](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0053-maximum-subarray) |
 | [0136-single-number](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0136-single-number) |
 | [0485-max-consecutive-ones](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0485-max-consecutive-ones) |
@@ -24,6 +25,10 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0053-maximum-subarray) |
+## Backtracking
+|  |
+| ------- |
+| [0040-combination-sum-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0040-combination-sum-ii) |
 <!---LeetCode Topics End-->
 
 ## Folder Question Index
