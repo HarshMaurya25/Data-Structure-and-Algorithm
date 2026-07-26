@@ -7,6 +7,7 @@
 | [0001-two-sum](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0001-two-sum) |
 | [0040-combination-sum-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0040-combination-sum-ii) |
 | [0053-maximum-subarray](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0136-single-number) |
 | [0485-max-consecutive-ones](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0485-max-consecutive-ones) |
 ## Bit Manipulation
@@ -25,6 +26,7 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Backtracking
 |  |
 | ------- |
