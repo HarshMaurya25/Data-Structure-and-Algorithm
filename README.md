@@ -4,53 +4,58 @@
 
 ## Array
 
-|                                                                                                                              |
-| ---------------------------------------------------------------------------------------------------------------------------- |
-| [26-remove-duplicates-from-sorted-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array)    |
-| [1752-check-if-array-is-sorted-and-rotated](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array) |
-| [189-rotate-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array)                          |
-| [283-move-zeroes](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array)                           |
-| [3536-maximum-product-of-two-digits](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array)        |
+|                                                                                           |
+| ----------------------------------------------------------------------------------------- |
+| [0001-two-sum](./0001-two-sum/)                                                           |
+| [0026-remove-duplicates-from-sorted-array](./0026-remove-duplicates-from-sorted-array/)   |
+| [0053-maximum-subarray](./0053-maximum-subarray/)                                         |
+| [0075-sort-colors](./0075-sort-colors/)                                                   |
+| [0136-single-number](./0136-single-number/)                                               |
+| [0189-rotate-array](./0189-rotate-array/)                                                 |
+| [0283-move-zeroes](./0283-move-zeroes/)                                                   |
+| [0485-max-consecutive-ones](./0485-max-consecutive-ones/)                                 |
+| [1752-check-if-array-is-sorted-and-rotated](./1752-check-if-array-is-sorted-and-rotated/) |
+| [3536-maximum-product-of-two-digits](./3536-maximum-product-of-two-digits/)               |
 
 ## Binary Search
 
-|                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [4-median-of-two-sorted-arrays](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                              |
-| [33-search-in-rotated-sorted-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                          |
-| [34-find-first-and-last-position-of-element-in-sorted-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search) |
-| [35-search-insert-position](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                  |
-| [69-sqrtx](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                                   |
-| [74-search-a-2d-matrix](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                      |
-| [81-search-in-rotated-sorted-array-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                       |
-| [153-find-minimum-in-rotated-sorted-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                   |
-| [162-find-peak-element](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                      |
-| [410-split-array-largest-sum](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                |
-| [540-single-element-in-a-sorted-array](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                       |
-| [875-koko-eating-bananas](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                                    |
-| [1011-capacity-to-ship-packages-within-d-days](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)               |
-| [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)           |
-| [1539-kth-missing-positive-number](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Binary%20Search)                           |
+|                                                                                                                                 |
+| ------------------------------------------------------------------------------------------------------------------------------- |
+| [0004-median-of-two-sorted-arrays](./0004-median-of-two-sorted-arrays/)                                                         |
+| [0033-search-in-rotated-sorted-array](./0033-search-in-rotated-sorted-array/)                                                   |
+| [0034-find-first-and-last-position-of-element-in-sorted-array](./0034-find-first-and-last-position-of-element-in-sorted-array/) |
+| [0035-search-insert-position](./0035-search-insert-position/)                                                                   |
+| [0069-sqrtx](./0069-sqrtx/)                                                                                                     |
+| [0074-search-a-2d-matrix](./0074-search-a-2d-matrix/)                                                                           |
+| [0081-search-in-rotated-sorted-array-ii](./0081-search-in-rotated-sorted-array-ii/)                                             |
+| [0153-find-minimum-in-rotated-sorted-array](./0153-find-minimum-in-rotated-sorted-array/)                                       |
+| [0162-find-peak-element](./0162-find-peak-element/)                                                                             |
+| [0410-split-array-largest-sum](./0410-split-array-largest-sum/)                                                                 |
+| [0540-single-element-in-a-sorted-array](./0540-single-element-in-a-sorted-array/)                                               |
+| [0875-koko-eating-bananas](./0875-koko-eating-bananas/)                                                                         |
+| [1011-capacity-to-ship-packages-within-d-days](./1011-capacity-to-ship-packages-within-d-days/)                                 |
+| [1283-find-the-smallest-divisor-given-a-threshold](./1283-find-the-smallest-divisor-given-a-threshold/)                         |
+| [1539-kth-missing-positive-number](./1539-kth-missing-positive-number/)                                                         |
 
 ## Backtracking
 
-|                                                                                                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------- |
-| [17-letter-combinations-of-a-phone-number](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion) |
-| [22-generate-parentheses](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                  |
-| [39-combination-sum](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                       |
-| [40-combination-sum-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0040-combination-sum-ii)      |
-| [50-powx-n](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                                |
-| [51-n-queens](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                              |
-| [79-word-search](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                           |
-| [90-subsets-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                            |
-| [131-palindrome-partitioning](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)              |
-| [216-combination-sum-iii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Recursion)                  |
+|                                                                                             |
+| ------------------------------------------------------------------------------------------- |
+| [0017-letter-combinations-of-a-phone-number](./0017-letter-combinations-of-a-phone-number/) |
+| [0022-generate-parentheses](./0022-generate-parentheses/)                                   |
+| [0039-combination-sum](./0039-combination-sum/)                                             |
+| [0040-combination-sum-ii](./0040-combination-sum-ii/)                                       |
+| [0050-powx-n](./0050-powx-n/)                                                               |
+| [0051-n-queens](./0051-n-queens/)                                                           |
+| [0079-word-search](./0079-word-search/)                                                     |
+| [0090-subsets-ii](./0090-subsets-ii/)                                                       |
+| [0131-palindrome-partitioning](./0131-palindrome-partitioning/)                             |
+| [0216-combination-sum-iii](./0216-combination-sum-iii/)                                     |
 
 ## Maths
 
-|                                                                                                            |
-| ---------------------------------------------------------------------------------------------------------- |
-| [1922-count-good-numbers](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Maths) |
+|                                                       |
+| ----------------------------------------------------- |
+| [1922-count-good-numbers](./1922-count-good-numbers/) |
 
 <!---LeetCode Topics End-->
