@@ -10,6 +10,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0136-single-number) |
 | [0485-max-consecutive-ones](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/Array/0485-max-consecutive-ones) |
+| [0704-binary-search](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -31,6 +32,10 @@
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0040-combination-sum-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0704-binary-search](https://github.com/HarshMaurya25/Data-Structure-and-Algorithm/tree/master/0704-binary-search) |
 <!---LeetCode Topics End-->
 
 ## Folder Question Index
