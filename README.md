@@ -1,6 +1,5 @@
 # Data-Structure-and-Algorithm
 
-<!---LeetCode Topics Start-->
 # LeetCode Topics
 
 ## Array
