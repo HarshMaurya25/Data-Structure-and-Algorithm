@@ -1,16 +1,20 @@
 class Solution:
     def numberOfSubarrays(self, nums: List[int], k: int) -> int:
-        hashmap = {0: 1}
-        odd_count = 0
+        hashmap = {}
+        hashmap[0] = -1
         ans = 0
+        odd_count = 0
 
-        for num in nums:
-            if num % 2 == 1:
+        for idx, num in enumerate(nums):
+            if num%2 == 1:
                 odd_count += 1
 
-            if odd_count - k in hashmap:
-                ans += hashmap[odd_count - k]
+            if odd_count not in hashmap:
+                hashmap[odd_count] = idx
 
-            hashmap[odd_count] = hashmap.get(odd_count, 0) + 1
+            if odd_count < k:
+                continue
+            
+            ans += hashmap.get(odd_count - k + 1) - hashmap.get(odd_count - k)
 
         return ans
