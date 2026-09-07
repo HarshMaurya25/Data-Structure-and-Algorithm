@@ -1,17 +1,19 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        prefix = [0] * 1001
+        events = []
 
         for people, start, end in trips:
-            prefix[start] += people
-            prefix[end] -= people
+            events.append((start, people))
+            events.append((end, -people))
 
-        current = 0
+        events.sort()
 
-        for change in prefix:
-            current += change
+        passengers = 0
 
-            if current > capacity:
+        for location, change in events:
+            passengers += change
+
+            if passengers > capacity:
                 return False
 
         return True
