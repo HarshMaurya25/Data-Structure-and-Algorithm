@@ -3,11 +3,15 @@ class Solution:
         intervals.sort(key=lambda x: x[0])
 
         ans = []
+        prev_end = float('-inf')
 
-        for interval in intervals:
-            if not ans or ans[-1][1] < interval[0]:
-                ans.append(interval)
+        for start , end in intervals:
+            if start > prev_end:
+                ans.append([start, end])
+                prev_end = end
             else:
-                ans[-1][1] = max(ans[-1][1], interval[1])
-
+                if prev_end < end:
+                    ans[-1][1] = end
+                    prev_end = end
+        
         return ans
