@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0075-sort-colors" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0189-rotate-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0229-majority-element-ii" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0238-product-of-array-except-self" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0560-subarray-sum-equals-k" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/0643-maximum-average-subarray-i" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1480-running-sum-of-1d-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2149-rearrange-array-elements-by-sign" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

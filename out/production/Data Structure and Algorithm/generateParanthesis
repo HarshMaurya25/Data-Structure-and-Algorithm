@@ -1,0 +1,24 @@
+class Solution:
+    def generateParenthesis(self, n: int) -> List[str]:
+        answer = []
+
+        def solutions(n , r, l , current):
+            if(l == n):
+                answer.append(current)
+                return
+
+            if(r < n):
+                solutions(n, r + 1, l , current + "(")
+            if(r > l):
+                solutions(n, r, l + 1 , current + ")")
+
+        solutions(n , 0 , 0 , "")
+        return answer
+    
+
+a = [[2, 2, 3]]
+
+if([2, 3, 2] in a):
+    print("YEs")
+else:
+    print("NO")
