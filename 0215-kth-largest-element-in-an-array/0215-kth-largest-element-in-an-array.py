@@ -1,6 +1,12 @@
 class Solution:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        return self.quickSelect(nums, 0, len(nums) - 1, k - 1)
+        # return self.quickSelect(nums, 0, len(nums) - 1, k - 1)
+        heapq.heapify(nums)
+
+        for _ in range(len(nums) - k):
+            heapq.heappop(nums)
+
+        return heapq.heappop(nums)
 
     def quickSelect(self, nums, start, end, target):
         if start == end:
