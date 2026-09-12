@@ -23,13 +23,9 @@ class Solution {
         if (prev == null){
             return head.next;
         }
-
-        if (prev.next.next == null){
-            prev.next = null;
-        }else {
-            prev.next = slow.next;
-        }
-
+        
+        prev.next = slow.next;
+        
         return head;
     }
 }
