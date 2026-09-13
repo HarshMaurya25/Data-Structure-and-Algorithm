@@ -1,27 +1,13 @@
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode ans = null;
-        ListNode temp = headA;
+        ListNode a = headA;
+        ListNode b = headB;
 
-        while (headA != null){
-            headA.val = - headA.val;
-            headA = headA.next;
+        while (a != b) {
+            a = (a == null) ? headB : a.next;
+            b = (b == null) ? headA : b.next;
         }
 
-        while (headB != null){
-            if (headB.val < 0){
-                ans = headB;
-                break;
-            }
-            headB = headB.next;
-        }
-
-        headA = temp;
-        while (headA != null){
-            headA.val = -headA.val;
-            headA = headA.next;
-        }
-
-        return ans;
+        return a;
     }
 }
