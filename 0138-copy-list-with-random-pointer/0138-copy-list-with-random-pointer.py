@@ -1,35 +1,35 @@
 class Solution:
     def copyRandomList(self, head: 'Optional[Node]') -> 'Optional[Node]':
         if not head:
-            return None
+            return head
 
-        temp = head.next
-        newHead = Node(head.val, None, None)
-        prev = newHead
+        newHead = Node(head.val, head.next)
+        head.next = newHead
 
-        newNode = {}
-
-        newNode[0] = newHead
-        head.val = 0
-
-        i = 1
+        temp = newHead.next
         while temp:
-            node = Node(temp.val , None, None)
-            newNode[i]= node
-            prev.next = node
-            prev = node
-            temp.val = i
-            temp = temp.next
-            i+=1
-
+            node = Node(temp.val , temp.next)
+            temp.next = node
+            temp = node.next
+        
         temp = head
-        newTemp = newHead
         while temp:
             if temp.random:
-                randomNode = newNode[temp.random.val]
-                newTemp.random = randomNode
-            
-            temp = temp.next
-            newTemp = newTemp.next
+                temp.next.random = temp.random.next
+            temp = temp.next.next
 
-        return newHead
+        dummy = Node(0)
+
+        prev = dummy
+        temp = newHead
+        while temp:
+            prev.next = temp
+            
+            if not temp.next:
+                break 
+
+            prev = temp
+            temp = temp.next.next
+
+        
+        return dummy.next
